@@ -1,16 +1,16 @@
 #!/bin/bash
 clear
-echo "*** INSTALLING NODEJS VERSION 4.2.1 ***"
+echo "*** INSTALLING NODEJS VERSION 4.4.4 ***"
 echo "    -------------------------------"
 echo ""
 echo "Script by Kevin McAleer Copyright 2017"
 echo "--------------------------------------"
 echo ""
-wget https://nodejs.org/dist/v4.2.1/node-v4.2.1-linux-armv6l.tar.xz
-tar xJvf node-v4.2.1-linux-armv6l.tar.xz
+wget https://nodejs.org/dist/v4.2.1/node-v4.4.4-linux-armv6l.tar.xz
+tar xJvf node-v4.4.4-linux-armv6l.tar.xz
 echo ""
 echo "*** COPYING FILES TO LOCAL FOLDER ***"
-cd node-v4.2.1-linux-armv6l
+cd node-v4.4.4-linux-armv6l
 cp -R * /usr/local/
 export path=$PATH:/usr/local/bin
 echo ""
