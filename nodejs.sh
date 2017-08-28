@@ -27,8 +27,10 @@ echo ""
 git clone https://github.com/KhaosT/HAP-NodeJS.git
 cd HAP-NodeJS/
 echo "*** 5/5 INSTALLING DEPENDENCIES ***"
+apt-get install libavahi-compat-libdnssd-dev
 npm install node-persist && npm install srp && npm install mdns
 npm install ed25519 && npm install curve25519 && npm install debug
+npm rebuild
 # node Core.js
 echo ""
 echo "*** Done ***"
