@@ -35,5 +35,5 @@ npm rebuild
 echo ""
 echo "*** Done ***"
 echo ""
-echo "Type node Core.js to launch HomeBridge 
+echo "Type node Core.js to launch HomeBridge" 
 echo ""
